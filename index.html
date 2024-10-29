@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Omar's Personal Portfolio</title>
+
+    <!-- <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template"> -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <!-- <a href="#projects">Projects</a> -->
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!--------------- home section design ------------------------------------->
+    <section class="home">
+      <div class="home-content">
+        <!-- <h3>Hello, It's Me</h3> -->
+        <h1>Omar Yousef</h1>
+        <!-- <h3>And I like <span class="multiple-text"></span></h3> -->
+        <p>Passionate about honing skills in coding and development</p>
+        <p>through technical projects!</p>
+        <!-- <p>Check out my cool projects on this site!</p> -->
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/omar-yousef-257305194"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://github.com/oyousef25"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/omar-yousef-257305194"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a
+          id="downloadCV-btn"
+          class="downloadCV-btn"
+          href="#"
+          class="downloadCV-btn"
+          >Download CV</a
+        >
+      </div>
+      <!-- <div class="home-img">
+            <img src="images/omar_image.jpg" alt="">
+        </div> -->
+      <canvas id="c"></canvas>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full-Stack Developer</h3>
+        <p>
+          I'm Omar Yousef, a full-stack developer with an endless curiosity for
+          coding and all things tech! From building responsive web apps to
+          diving into Android development, I love every aspect of the
+          development process. <br />
+          My excitement for learning and experimenting with new technologies
+          keeps me constantly pushing my limits! Whether I'm solving complex
+          problems or exploring fresh ideas, I bring energy and enthusiasm to
+          everything I do. <br />
+          Let’s connect and share the joy of coding and creating something
+          awesome together!
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="about-img">
+        <img src="images/omar_image.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-angular"></i>
+          <h3>Angular</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-react"></i>
+          <h3>React</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-typescript"></i>
+          <h3>Typescript</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-java"></i>
+          <h3>Java</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-php"></i>
+          <h3>Php</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-vuejs"></i>
+          <h3>VueJS</h3>
+        </div>
+
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-nodejs"></i>
+          <h3>NodeJs</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxs-data"></i>
+          <h3>SQL</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-mongodb"></i>
+          <h3>MongoDB</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bxl-android"></i>
+          <h3>Android Studio</h3>
+        </div>
+        <div class="skills-box">
+          <img src="" alt="" />
+          <i class="bx bx-globe"></i>
+          <h3>.NET</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects section design -->
+    <!-- <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="" alt="Image of project">
+                <div class="projects-layer">
+                    <h4>Title</h4>
+                    <p>Coolest Description Ever!</p>
+                    <a href="link to repo"><i class='bx  bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="" alt="Image of project">
+                <div class="projects-layer">
+                    <h4>Title</h4>
+                    <p>Coolest Description Ever!</p>
+
+                    <a href="link to repo"><i class='bx  bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="projects-box">
+                <img src="" alt="Image of project">
+                <div class="projects-layer">
+                    <h4>Title</h4>
+                    <p>Coolest Description Ever!</p>
+                    <a href="link to repo"><i class='bx  bx-link-external' ></i></a>
+                </div>
+            </div> 
+        </div>
+    </section> -->
+
+    <<!-- experiences section design -->
+    <!-- experiences section design -->
+    <section class="experience" id="experience">
+      <h2 class="heading">My <span>Experience</span></h2>
+      <div class="experience-container">
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>TapLane Inc.</h4>
+            <h5>Software Engineer</h5>
+            <p>
+              Developed and deployed scalable web applications using Java, C#,
+              Vue.js, and Laravel. Designed RESTful APIs for BlueARGUS, handling
+              IoT data clustering, notifications, and geospatial processing.
+              Utilized Docker for deployment and streamlined CI/CD processes.
+            </p>
+          </div>
+        </div>
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>Google Developers Student Club</h4>
+            <h5>Technical Lead & Co-Founder</h5>
+            <p>
+              Co-founded the Google Developers Student Club at the University of
+              Windsor, where I led workshops on coding, cloud computing, and
+              Google technologies. Guided students in collaborative projects,
+              helping them build industry-relevant skills.
+            </p>
+          </div>
+        </div>
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>Computer Science Society at University of Windsor</h4>
+            <h5>Lead Software Developer</h5>
+            <p>
+              Led development initiatives within the Computer Science Society,
+              managing software projects and mentoring team members. Actively
+              contributed to the development of student-focused software
+              solutions.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>WinHacks</h4>
+            <h5>Organizer & Lead Software Developer</h5>
+            <p>
+              Organized the WinHacks hackathon and led the software development
+              team, overseeing the development of event management systems and
+              mentoring participants on coding best practices.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>BlueARGUS Project</h4>
+            <h5>Traffic Management Application</h5>
+            <p>
+              Enhanced Iteris BlueARGUS software with map clustering and
+              notification features. Played a key role in the development of
+              front-end and back-end functionalities to improve real-time
+              traffic data monitoring.
+            </p>
+          </div>
+        </div>
+
+        <div class="experience-box">
+          <div class="experience-layer">
+            <h4>Code Ninjas</h4>
+            <h5>Lead Instructor</h5>
+            <p>
+              Mentored students aged 7-14 in coding and problem-solving at Code
+              Ninjas. Oversaw the center's growth and ensured a positive
+              learning environment while teaching core programming concepts to
+              young aspiring developers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="https://formsubmit.co/omar0yousef0@gmail.com" method="POST">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" name="name" />
+          <input type="email" placeholder="Email Address" name="email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number" name="number" />
+          <input type="text" placeholder="Email Subject" name="Subject" />
+        </div>
+        <textarea
+          name="textarea"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 by Omar Yousef | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script>
+      const particleVertex = `
+  attribute float scale;
+	uniform float uTime;
+
+	void main() {
+		vec3 p = position;
+    float s = scale;
+
+    p.y += (sin(p.x + uTime) * 0.5) + (cos(p.y + uTime) * 0.1) * 2.0;
+    p.x += (sin(p.y + uTime) * 0.5);
+    s += (sin(p.x + uTime) * 0.5) + (cos(p.y + uTime) * 0.1) * 2.0;
+
+		vec4 mvPosition = modelViewMatrix * vec4(p, 1.0);
+		gl_PointSize = s * 15.0 * (1.0 / -mvPosition.z);
+		gl_Position = projectionMatrix * mvPosition;
+	}
+`;
+
+      const particleFragment = `
+	void main() {
+		gl_FragColor = vec4(1.0, 1.0, 1.0, 0.5);
+	}
+`;
+
+      function lerp(start, end, amount) {
+        return (1 - amount) * start + amount * end;
+      }
+
+      class Canvas {
+        constructor() {
+          this.config = {
+            canvas: document.querySelector("#c"),
+            winWidth: window.innerWidth,
+            winHeight: window.innerHeight,
+            aspectRatio: window.innerWidth / window.innerHeight,
+            mouse: new THREE.Vector2(-10, -10),
+          };
+
+          this.onResize = this.onResize.bind(this);
+          this.onMouseMove = this.onMouseMove.bind(this);
+          this.animate = this.animate.bind(this);
+
+          this.initCamera();
+          this.initScene();
+          this.initRenderer();
+          this.initParticles();
+
+          this.bindEvents();
+          this.animate();
+        }
+
+        bindEvents() {
+          window.addEventListener("resize", this.onResize);
+          window.addEventListener("mousemove", this.onMouseMove, false);
+        }
+
+        initCamera() {
+          this.camera = new THREE.PerspectiveCamera(
+            75,
+            this.config.aspectRatio,
+            0.01,
+            1000
+          );
+          this.camera.position.set(0, 3, 5); // Move camera to focus more on the lower area
+        }
+
+        initScene() {
+          this.scene = new THREE.Scene();
+        }
+
+        initRenderer() {
+          this.renderer = new THREE.WebGLRenderer({
+            canvas: this.config.canvas,
+            antialias: true,
+          });
+          this.renderer.setPixelRatio(window.devicePixelRatio);
+          this.renderer.setSize(this.config.winWidth, this.config.winHeight);
+        }
+
+        initParticles() {
+          const gap = 0.3;
+          const amountX = 200;
+          const amountY = 200;
+          const particleNum = amountX * amountY;
+          const particlePositions = new Float32Array(particleNum * 3);
+          const particleScales = new Float32Array(particleNum);
+          let i = 0;
+          let j = 0;
+
+          for (let ix = 0; ix < amountX; ix++) {
+            for (let iy = 0; iy < amountY; iy++) {
+              particlePositions[i] = ix * gap - (amountX * gap) / 2;
+              particlePositions[i + 1] = iy * gap - (amountY * gap) / 2 - 10; // Move particles lower
+              particlePositions[i + 2] = iy * gap - (amountX * gap) / 2;
+              particleScales[j] = 1;
+              i += 3;
+              j++;
+            }
+          }
+
+          this.particleGeometry = new THREE.BufferGeometry();
+          this.particleGeometry.setAttribute(
+            "position",
+            new THREE.BufferAttribute(particlePositions, 3)
+          );
+          this.particleGeometry.setAttribute(
+            "scale",
+            new THREE.BufferAttribute(particleScales, 1)
+          );
+
+          this.particleMaterial = new THREE.ShaderMaterial({
+            transparent: true,
+            vertexShader: particleVertex,
+            fragmentShader: particleFragment,
+            uniforms: {
+              uTime: { type: "f", value: 0 },
+            },
+          });
+          this.particles = new THREE.Points(
+            this.particleGeometry,
+            this.particleMaterial
+          );
+          this.scene.add(this.particles);
+        }
+
+        render() {
+          this.camera.lookAt(this.scene.position);
+          this.renderer.render(this.scene, this.camera);
+        }
+
+        animate() {
+          this.particleMaterial.uniforms.uTime.value += 0.01; // Slow down animation
+          requestAnimationFrame(this.animate);
+          this.render();
+        }
+
+        onMouseMove(e) {
+          this.config.mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+          this.config.mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+        }
+
+        onResize() {
+          this.config.winWidth = window.innerWidth;
+          this.config.winHeight = window.innerHeight;
+          this.camera.aspect = this.config.winWidth / this.config.winHeight;
+          this.camera.updateProjectionMatrix();
+          this.renderer.setSize(this.config.winWidth, this.config.winHeight);
+        }
+      }
+
+      new Canvas();
+    </script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+
+    <!-- cv button script -->
+    <script>
+      document
+        .getElementById("downloadCV-btn")
+        .addEventListener("click", function () {
+          // Change the 'your-resume.pdf' to the actual file name of your resume
+          var resumeUrl = "images/Omar's Resume.pdf";
+
+          // Create an invisible link element
+          var downloadLink = document.createElement("a");
+          downloadLink.href = resumeUrl;
+          downloadLink.download = "images/Omar's Resume.pdf";
+
+          // Append the link to the body
+          document.body.appendChild(downloadLink);
+
+          // Trigger a click on the link to start the download
+          downloadLink.click();
+
+          // Remove the link from the DOM once the download is initiated
+          document.body.removeChild(downloadLink);
+        });
+    </script>
+  </body>
+</html>
